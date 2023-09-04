@@ -1,0 +1,52 @@
+body {
+  background-image: url("img/51.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  height: 25%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 3rem;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  border: none;
+  margin: 0 0.5em;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+button i {
+  font-size: 2rem;
+  color: white;
+  padding: 4px;
+}
+
+#play {
+  background-color: green;
+}
+
+#reset {
+  background-color: red;
+}
+
+#pause {
+  background-color: orange;
+}
